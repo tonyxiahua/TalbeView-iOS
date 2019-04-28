@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521800AB22750BC10009E42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521800AA22750BC10009E42A /* AppDelegate.swift */; };
+		521800AD22750BC10009E42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521800AC22750BC10009E42A /* ViewController.swift */; };
+		521800B022750BC10009E42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521800AE22750BC10009E42A /* Main.storyboard */; };
+		521800B222750BC10009E42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 521800B122750BC10009E42A /* Assets.xcassets */; };
+		521800B522750BC10009E42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521800B322750BC10009E42A /* LaunchScreen.storyboard */; };
+		521800C022750BC10009E42A /* TalbeViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521800BF22750BC10009E42A /* TalbeViewsTests.swift */; };
+		521800CB22750BC10009E42A /* TalbeViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521800CA22750BC10009E42A /* TalbeViewsUITests.swift */; };
+		521800D922750EB80009E42A /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521800D822750EB80009E42A /* StudentCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521800BC22750BC10009E42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5218009F22750BC10009E42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521800A622750BC10009E42A;
+			remoteInfo = TalbeViews;
+		};
+		521800C722750BC10009E42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5218009F22750BC10009E42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521800A622750BC10009E42A;
+			remoteInfo = TalbeViews;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521800A722750BC10009E42A /* TalbeViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalbeViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521800AA22750BC10009E42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		521800AC22750BC10009E42A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		521800AF22750BC10009E42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		521800B122750BC10009E42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		521800B422750BC10009E42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		521800B622750BC10009E42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521800BB22750BC10009E42A /* TalbeViewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalbeViewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521800BF22750BC10009E42A /* TalbeViewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalbeViewsTests.swift; sourceTree = "<group>"; };
+		521800C122750BC10009E42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521800C622750BC10009E42A /* TalbeViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalbeViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521800CA22750BC10009E42A /* TalbeViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalbeViewsUITests.swift; sourceTree = "<group>"; };
+		521800CC22750BC10009E42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521800D822750EB80009E42A /* StudentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521800A422750BC10009E42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800B822750BC10009E42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800C322750BC10009E42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5218009E22750BC10009E42A = {
+			isa = PBXGroup;
+			children = (
+				521800A922750BC10009E42A /* TalbeViews */,
+				521800BE22750BC10009E42A /* TalbeViewsTests */,
+				521800C922750BC10009E42A /* TalbeViewsUITests */,
+				521800A822750BC10009E42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521800A822750BC10009E42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521800A722750BC10009E42A /* TalbeViews.app */,
+				521800BB22750BC10009E42A /* TalbeViewsTests.xctest */,
+				521800C622750BC10009E42A /* TalbeViewsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521800A922750BC10009E42A /* TalbeViews */ = {
+			isa = PBXGroup;
+			children = (
+				521800AA22750BC10009E42A /* AppDelegate.swift */,
+				521800AC22750BC10009E42A /* ViewController.swift */,
+				521800AE22750BC10009E42A /* Main.storyboard */,
+				521800B122750BC10009E42A /* Assets.xcassets */,
+				521800B322750BC10009E42A /* LaunchScreen.storyboard */,
+				521800B622750BC10009E42A /* Info.plist */,
+				521800D822750EB80009E42A /* StudentCell.swift */,
+			);
+			path = TalbeViews;
+			sourceTree = "<group>";
+		};
+		521800BE22750BC10009E42A /* TalbeViewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				521800BF22750BC10009E42A /* TalbeViewsTests.swift */,
+				521800C122750BC10009E42A /* Info.plist */,
+			);
+			path = TalbeViewsTests;
+			sourceTree = "<group>";
+		};
+		521800C922750BC10009E42A /* TalbeViewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				521800CA22750BC10009E42A /* TalbeViewsUITests.swift */,
+				521800CC22750BC10009E42A /* Info.plist */,
+			);
+			path = TalbeViewsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521800A622750BC10009E42A /* TalbeViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521800CF22750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViews" */;
+			buildPhases = (
+				521800A322750BC10009E42A /* Sources */,
+				521800A422750BC10009E42A /* Frameworks */,
+				521800A522750BC10009E42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalbeViews;
+			productName = TalbeViews;
+			productReference = 521800A722750BC10009E42A /* TalbeViews.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521800BA22750BC10009E42A /* TalbeViewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521800D222750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViewsTests" */;
+			buildPhases = (
+				521800B722750BC10009E42A /* Sources */,
+				521800B822750BC10009E42A /* Frameworks */,
+				521800B922750BC10009E42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521800BD22750BC10009E42A /* PBXTargetDependency */,
+			);
+			name = TalbeViewsTests;
+			productName = TalbeViewsTests;
+			productReference = 521800BB22750BC10009E42A /* TalbeViewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		521800C522750BC10009E42A /* TalbeViewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521800D522750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViewsUITests" */;
+			buildPhases = (
+				521800C222750BC10009E42A /* Sources */,
+				521800C322750BC10009E42A /* Frameworks */,
+				521800C422750BC10009E42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521800C822750BC10009E42A /* PBXTargetDependency */,
+			);
+			name = TalbeViewsUITests;
+			productName = TalbeViewsUITests;
+			productReference = 521800C622750BC10009E42A /* TalbeViewsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5218009F22750BC10009E42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Xia Hua";
+				TargetAttributes = {
+					521800A622750BC10009E42A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					521800BA22750BC10009E42A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521800A622750BC10009E42A;
+					};
+					521800C522750BC10009E42A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 521800A622750BC10009E42A;
+					};
+				};
+			};
+			buildConfigurationList = 521800A222750BC10009E42A /* Build configuration list for PBXProject "TalbeViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5218009E22750BC10009E42A;
+			productRefGroup = 521800A822750BC10009E42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521800A622750BC10009E42A /* TalbeViews */,
+				521800BA22750BC10009E42A /* TalbeViewsTests */,
+				521800C522750BC10009E42A /* TalbeViewsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521800A522750BC10009E42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521800B522750BC10009E42A /* LaunchScreen.storyboard in Resources */,
+				521800B222750BC10009E42A /* Assets.xcassets in Resources */,
+				521800B022750BC10009E42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800B922750BC10009E42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800C422750BC10009E42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521800A322750BC10009E42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521800D922750EB80009E42A /* StudentCell.swift in Sources */,
+				521800AD22750BC10009E42A /* ViewController.swift in Sources */,
+				521800AB22750BC10009E42A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800B722750BC10009E42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521800C022750BC10009E42A /* TalbeViewsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521800C222750BC10009E42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521800CB22750BC10009E42A /* TalbeViewsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521800BD22750BC10009E42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521800A622750BC10009E42A /* TalbeViews */;
+			targetProxy = 521800BC22750BC10009E42A /* PBXContainerItemProxy */;
+		};
+		521800C822750BC10009E42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521800A622750BC10009E42A /* TalbeViews */;
+			targetProxy = 521800C722750BC10009E42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521800AE22750BC10009E42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521800AF22750BC10009E42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		521800B322750BC10009E42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521800B422750BC10009E42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521800CD22750BC10009E42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		521800CE22750BC10009E42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521800D022750BC10009E42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalbeViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		521800D122750BC10009E42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalbeViews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		521800D322750BC10009E42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalbeViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalbeViews.app/TalbeViews";
+			};
+			name = Debug;
+		};
+		521800D422750BC10009E42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TalbeViewsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalbeViews.app/TalbeViews";
+			};
+			name = Release;
+		};
+		521800D622750BC10009E42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TalbeViewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TalbeViews;
+			};
+			name = Debug;
+		};
+		521800D722750BC10009E42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TalbeViewsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.csxiahua.TalbeViewsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TalbeViews;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521800A222750BC10009E42A /* Build configuration list for PBXProject "TalbeViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521800CD22750BC10009E42A /* Debug */,
+				521800CE22750BC10009E42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521800CF22750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521800D022750BC10009E42A /* Debug */,
+				521800D122750BC10009E42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521800D222750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521800D322750BC10009E42A /* Debug */,
+				521800D422750BC10009E42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		521800D522750BC10009E42A /* Build configuration list for PBXNativeTarget "TalbeViewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521800D622750BC10009E42A /* Debug */,
+				521800D722750BC10009E42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5218009F22750BC10009E42A /* Project object */;
+}
